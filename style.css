@@ -4,7 +4,26 @@ body{
 }
 h1{
     font-size: 50px;
+    
    }
+.h1no1{
+    white-space:nowrap;
+
+
+}   
+h2{
+    font-size: 40px;
+}
+.third-page{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 3%;
+    border-radius: 5px;
+    border-left: 7px solid blue;
+    
+
+    box-shadow: 10px 10px 50px gray;
+}
 .my-name{
     color: orangered;
 }   
@@ -35,4 +54,27 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-div{
+    display: flex;
+}
+
+.experience-container{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#full-stack{
+    border-left: 7px solid orangered ;
+}
+#baby-stack{
+    border-left: 7px solid blue;
+}
+footer{
+    text-align: center;
+
+}
+.para-of-third{
+    text-align: center;
 }
